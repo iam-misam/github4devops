@@ -4,6 +4,6 @@
 
 3. git status -> to check the status of the repo
 
-4. git commit -> to make the commit to track the file.
+4. git commit -m "<message>"   -> to make the commit to track the file.
 
 5. 
