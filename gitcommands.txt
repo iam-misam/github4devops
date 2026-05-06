@@ -8,6 +8,8 @@
 
 5. git remote add origin <url>  -> to add the origin where the pushed code will be delivered.
 
+6. git remote set-url origin https://token@github.com/iam-misam/github-workshop.git
+
 6. git remote -v  -> to check 
 
 7. git push origin <branch_name>
@@ -15,3 +17,35 @@
 7. git pull origin <branch_name> -> to get the changes in your local from github.
 
 This is some new change
+
+
+====================================================================================
+
+*BRANCHING IN GITHUB*
+
+1. git branch -> to see all and current branch
+
+2. git switch <branch_name>  --> to switch to another branch
+
+3. git checkout <branch_name>  --> to switch to another branch
+
+  main
+   ↓
+Create branch
+   ↓
+Work on feature
+   ↓
+Push to GitHub
+   ↓
+Open Pull Request
+   ↓
+Code Review
+   ↓
+Merge into main
+
+===================================================================================
+
+*HOOKS*
+
+
+git hooks is basically a pre commit check.
